@@ -141,16 +141,16 @@ export default function Home() {
 
             <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
-                <div className="mb-2 text-3xl font-bold text-amber-700">1,200+</div>
-                <p className="text-slate-600">Education Beneficiaries</p>
+                <div className="mb-2 text-3xl font-bold text-amber-700">320 Students</div>
+                <p className="text-slate-600">Lee Tae Seok Primary School</p>
               </div>
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
-                <div className="mb-2 text-3xl font-bold text-amber-700">15</div>
-                <p className="text-slate-600">Countries</p>
+                <div className="mb-2 text-3xl font-bold text-amber-700">Four times a year</div>
+                <p className="text-slate-600">Providing Food and Medical Aid to Lychok Village</p>
               </div>
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
-                <div className="mb-2 text-3xl font-bold text-amber-700">50+</div>
-                <p className="text-slate-600">Partner Organizations</p>
+                <div className="mb-2 text-3xl font-bold text-amber-700">48</div>
+                <p className="text-slate-600">Lee Tae-seok Scholar</p>
               </div>
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
                 <div className="mb-2 text-3xl font-bold text-amber-700">5,000+</div>
