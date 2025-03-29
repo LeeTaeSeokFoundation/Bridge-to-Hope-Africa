@@ -145,7 +145,7 @@ export default function Home() {
 
             <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
-                <div className="mb-2 text-3xl font-bold text-amber-700">320 Students</div>
+                <div className="mb-2 text-3xl font-bold text-amber-700">554 Students</div>
                 <p className="text-slate-600">Lee Tae Seok Primary School</p>
               </div>
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
