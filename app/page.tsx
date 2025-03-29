@@ -10,14 +10,14 @@ export default function Home() {
   // 히어로 섹션 텍스트 표시 여부를 제어하는 상태 변수
   // 이 변수를 true/false로 변경하여 텍스트 표시 여부를 조정할 수 있습니다.
   // true: 텍스트 표시, false: 텍스트 숨김
-  const [showHeroText, setShowHeroText] = useState(true)
+  const [showHeroText, setShowHeroText] = useState(false)
 
   return (
     <div className="flex min-h-screen flex-col">
       <header className="border-b bg-white">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-3">
-            <Image src="/logo.png" alt="Foundation Logo" width={200} height={50} className="h-12 w-auto" />
+            <Image src="/logo-1.png" alt="Foundation Logo" width={200} height={50} className="h-10 w-auto" />
             <div className="flex flex-col">
               <span className="text-lg font-semibold text-slate-800">Bridge to Hope Africa</span>
             </div>
@@ -43,36 +43,40 @@ export default function Home() {
       </header>
 
       <main className="flex-1">
-        {/* Hero Section */}
+        {/* Hero Section - Mobile Optimized */}
         <section className="relative">
-          <div className="relative h-[600px] w-full overflow-hidden">
-            <Image
-              src="/hero-image.jpg"
-              alt="Foundation Activities"
-              width={1920}
-              height={800}
-              className="h-full w-full object-cover"
-              priority
-            />
+          <div className="relative w-full overflow-hidden bg-slate-100">
+            {/* 모바일에서는 이미지가 전체 보이도록 조정 */}
+            <div className="mx-auto max-w-6xl">
+              <Image
+                src="/hero-image.jpg"
+                alt="Foundation Activities"
+                width={1920}
+                height={800}
+                className="h-auto w-full object-contain md:object-cover"
+                priority
+              />
+            </div>
+
             {/* 텍스트 컨테이너 - showHeroText 상태에 따라 표시/숨김 */}
             {showHeroText && (
               <div className="absolute bottom-0 left-0 right-0">
-                <div className="container px-4 py-8">
-                  <div className="mx-auto max-w-3xl rounded-t-xl bg-black/20 p-8 text-center">
-                    <h1 className="mb-4 text-4xl font-bold leading-tight text-white drop-shadow-md sm:text-5xl md:text-6xl">
+                <div className="container px-4 py-4 md:py-8">
+                  <div className="mx-auto max-w-3xl rounded-t-xl bg-black/20 p-4 text-center md:p-8">
+                    <h1 className="mb-2 text-2xl font-bold leading-tight text-white drop-shadow-md sm:text-3xl md:mb-4 md:text-5xl lg:text-6xl">
                       Building a Better World Together
                     </h1>
-                    <p className="mb-8 text-lg text-white drop-shadow-md">
+                    <p className="mb-4 text-sm text-white drop-shadow-md md:mb-8 md:text-lg">
                       The Lee Tae Seok Foundation creates a better future through education, healthcare, and cultural
                       support. Your small help makes a big difference.
                     </p>
-                    <div className="flex flex-wrap justify-center gap-4">
-                      <Button className="rounded-full bg-white px-6 text-amber-800 hover:bg-white/90">
+                    <div className="flex flex-wrap justify-center gap-2 md:gap-4">
+                      <Button className="rounded-full bg-white px-4 py-1 text-sm text-amber-800 hover:bg-white/90 md:px-6 md:py-2 md:text-base">
                         Learn About Us
                       </Button>
                       <Button
                         variant="outline"
-                        className="rounded-full border-white bg-transparent px-6 text-white hover:bg-white/30"
+                        className="rounded-full border-white bg-transparent px-4 py-1 text-sm text-white hover:bg-white/30 md:px-6 md:py-2 md:text-base"
                       >
                         Get Involved
                       </Button>
@@ -150,7 +154,7 @@ export default function Home() {
               </div>
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
                 <div className="mb-2 text-3xl font-bold text-amber-700">48</div>
-                <p className="text-slate-600">Lee Tae-seok Scholar</p>
+                <p className="text-slate-600">Lee Tae Seok Scholar</p>
               </div>
               <div className="rounded-lg bg-white p-6 text-center shadow-sm">
                 <div className="mb-2 text-3xl font-bold text-amber-700">5,000+</div>
@@ -185,7 +189,7 @@ export default function Home() {
                   <div className="mb-2 text-sm font-medium text-amber-700">Education</div>
                   <h3 className="mb-2 text-xl font-semibold text-slate-800">Leadership School Graduation</h3>
                   <p className="mb-4 text-slate-600">
-                    On December 7, 2024, the graduation ceremony of the 4th class of the Lee Tae-seok Leadership School was held.
+                    On December 7, 2024, the graduation ceremony of the 4th class of the Lee Tae Seok Leadership School was held.
                   </p>
                   <Link
                     href="#"
@@ -315,7 +319,7 @@ export default function Home() {
             <div>
               <h3 className="mb-4 text-lg font-semibold text-white">Contact</h3>
               <ul className="space-y-2 text-sm">
-                <li>8th Floor, Gwangbok Hall, 15, Gukhoe-daero 62-gil, Yeouido-dong, Yeongdeungpo-gu, Seoul, Republic of Korea</li>
+                <li>8th Floor, Gwangbok Hall, 15, Gukhoe daero 62 gil, Yeouido dong, Yeongdeungpo gu, Seoul, Republic of Korea</li>
                 <li>Phone: +82-2-595-9093</li>
                 <li>Email: contact@leetaeseok.org</li>
               </ul>
