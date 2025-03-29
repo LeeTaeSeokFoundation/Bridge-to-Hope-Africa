@@ -67,7 +67,7 @@ export default function Home() {
                       Building a Better World Together
                     </h1>
                     <p className="mb-4 text-sm text-white drop-shadow-md md:mb-8 md:text-lg">
-                      The Lee Tae Seok Foundation creates a better future through education, healthcare, and cultural
+                      The Bridge to Hope Africa creates a better future through education, healthcare, and cultural
                       support. Your small help makes a big difference.
                     </p>
                     <div className="flex flex-wrap justify-center gap-2 md:gap-4">
@@ -138,7 +138,7 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="mb-6 text-3xl font-bold text-slate-800 sm:text-4xl">Our Impact</h2>
               <p className="mb-10 text-lg text-slate-600">
-                The Lee Tae Seok Foundation has brought positive changes to many people's lives through various projects
+                The Bridge to Hope Africa has brought positive changes to many people's lives through various projects
                 over the years.
               </p>
             </div>
