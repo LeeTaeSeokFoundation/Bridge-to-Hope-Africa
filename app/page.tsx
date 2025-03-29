@@ -170,7 +170,7 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="mb-6 text-3xl font-bold text-slate-800 sm:text-4xl">Recent Activities</h2>
               <p className="mb-10 text-lg text-slate-600">
-                Check out the recent activities and achievements of the Lee Tae Seok Foundation.
+                Check out the recent activities and achievements of the Bridge to Hope Africa.
               </p>
             </div>
 
