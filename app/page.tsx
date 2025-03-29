@@ -321,7 +321,7 @@ export default function Home() {
               <ul className="space-y-2 text-sm">
                 <li>8th Floor, Gwangbok Hall, 15, Gukhoe daero 62 gil, Yeouido dong, Yeongdeungpo gu, Seoul, Republic of Korea</li>
                 <li>Phone: +82-2-595-9093</li>
-                <li>Email: contact@leetaeseok.org</li>
+                <li>Email: contact@leetaeseokfoundation.org</li>
               </ul>
             </div>
             <div>
