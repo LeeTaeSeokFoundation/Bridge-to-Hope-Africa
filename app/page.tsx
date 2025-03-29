@@ -185,7 +185,7 @@ export default function Home() {
                   <div className="mb-2 text-sm font-medium text-amber-700">Education</div>
                   <h3 className="mb-2 text-xl font-semibold text-slate-800">Leadership School Graduation</h3>
                   <p className="mb-4 text-slate-600">
-                    On February 22, 2025, a graduation ceremony was held at the Lee Tae Seok Leadership School.
+                    On December 7, 2024, the graduation ceremony of the 4th class of the Lee Tae-seok Leadership School was held.
                   </p>
                   <Link
                     href="#"
