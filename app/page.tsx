@@ -94,7 +94,7 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="mb-6 text-3xl font-bold text-slate-800 sm:text-4xl">Our Mission</h2>
               <p className="mb-10 text-lg text-slate-600">
-                The Lee Tae Seok Foundation contributes to community development through leadership education and
+                The Bridge to Hope Africa contributes to community development through leadership education and
                 medical support in areas with limited educational opportunities. We help everyone dream of a better
                 future with dignity.
               </p>
@@ -287,7 +287,7 @@ export default function Home() {
                 <span className="text-lg font-semibold text-white">Bridge to Hope Africa</span>
               </div>
               <p className="mt-4 text-sm text-slate-400">
-                The Lee Tae Seok Foundation is a non-profit organization creating a better world through education,
+                The Bridge to Hope Africa is a non-profit organization creating a better world through education,
                 healthcare, and cultural support.
               </p>
             </div>
@@ -338,7 +338,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12 border-t border-slate-800 pt-6 text-center text-sm text-slate-500">
-            <p>© 2025 Lee Tae Seok Foundation. All rights reserved.</p>
+            <p>© 2025 Bridge to Hope Africa. All rights reserved.</p>
           </div>
         </div>
       </footer>
