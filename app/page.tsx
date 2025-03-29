@@ -17,7 +17,7 @@ export default function Home() {
       <header className="border-b bg-white">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-3">
-            <Image src="/logo-1.png" alt="Foundation Logo" width={200} height={50} className="h-10 w-auto" />
+            <Image src="/logo-1.png" alt="Foundation Logo" width={200} height={50} className="h-7 w-auto" />
             <div className="flex flex-col">
               <span className="text-lg font-semibold text-slate-800">Bridge to Hope Africa</span>
             </div>
